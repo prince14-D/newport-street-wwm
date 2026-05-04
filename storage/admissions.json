@@ -1,1 +1,42 @@
-[]
+[
+    {
+        "id": "adm_69f8d578e9c7c3.47667373",
+        "application_number": "NPS-ADM-F131E09D",
+        "student_type": "new",
+        "student_name": "Prince W Dahn Jr",
+        "date_of_birth": "2026-05-07",
+        "gender": "Male",
+        "grade_applying": "Grade 8",
+        "previous_school": "Grade 7",
+        "last_class_completed": "Johnso",
+        "parent_name": "Prince Dahn Jr",
+        "parent_phone": "0880369397",
+        "parent_email": "dahnjrprince@gmail.com",
+        "address": "Jacob town",
+        "student_photo": "assets/uploads/admissions/adm_53c5be7a06a2868c.jpg",
+        "status": "Pending",
+        "admin_note": "",
+        "created_at": "2026-05-04T17:20:56+00:00",
+        "updated_at": "2026-05-04T17:20:56+00:00"
+    },
+    {
+        "id": "adm_69f8d7233c8541.15421092",
+        "application_number": "WBI-ADM-84EE2C7D",
+        "student_type": "new",
+        "student_name": "Prince w Dahn Jr",
+        "date_of_birth": "2026-05-15",
+        "gender": "Male",
+        "grade_applying": "Grade 8",
+        "previous_school": "Grade 7",
+        "last_class_completed": "Johnso",
+        "parent_name": "Prince Dahn Jr",
+        "parent_phone": "770290707",
+        "parent_email": "Jaydahn278@gmail.com",
+        "address": "Mohali",
+        "student_photo": "assets/uploads/admissions/adm_90a9773b928ecb16.jpg",
+        "status": "Pending",
+        "admin_note": "",
+        "created_at": "2026-05-04T17:28:03+00:00",
+        "updated_at": "2026-05-04T17:28:03+00:00"
+    }
+]

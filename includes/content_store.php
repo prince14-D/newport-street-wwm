@@ -488,7 +488,7 @@ function wbi_add_admission($payload)
 {
     $items = wbi_storage_read('admissions.json');
     $id = uniqid('adm_', true);
-    $applicationNumber = 'WBI-ADM-' . strtoupper(substr(bin2hex(random_bytes(4)), 0, 8));
+    $applicationNumber = 'NPS-ADM-' . strtoupper(substr(bin2hex(random_bytes(4)), 0, 8));
 
     $record = [
         'id' => $id,

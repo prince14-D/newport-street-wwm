@@ -106,7 +106,7 @@ $approvedCount = count(array_filter($allAdmissions, function ($admission) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admissions Admin - WBI</title>
+    <title>Admissions Admin - New Port Street High School</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -150,7 +150,7 @@ $approvedCount = count(array_filter($allAdmissions, function ($admission) {
             <aside class="col-lg-3 admin-sidebar-col">
                 <div class="admin-sidebar admin-panel p-3 sticky-top">
                     <div class="admin-sidebar-brand mb-3">
-                        <div class="admin-sidebar-mark">WBI</div>
+                        <div class="admin-sidebar-mark">NPS</div>
                         <div>
                             <div class="admin-sidebar-title">Admissions Nav</div>
                             <div class="admin-sidebar-subtitle">Export and filter</div>
