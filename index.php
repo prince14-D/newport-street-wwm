@@ -11,7 +11,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $pageTitle; ?> - New Port Street High School</title>
+	<title><?php echo $pageTitle; ?> - Newport Street High School</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/nps-logo.png">
@@ -42,7 +42,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="hero-slide">
 							<img src="assets/images/banner.png" alt="WBI Logo" class="hero-slide-image">
 							<div class="hero-content container">
-								<h1>Welcome to New Port Street High School</h1>
+								<h1>Welcome to Newport Street High School</h1>
 								<p>Raising a generation of disciplined, God-fearing, and skilled leaders for Liberia and the world.</p>
 								<div class="hero-buttons">
 									<a href="admissions.php" class="btn primary">Apply Now</a>
@@ -123,17 +123,17 @@ $yearsInOperation = date('Y') - $foundingYear;
 				<div class="row align-items-center g-3">
 					<div class="col-lg-4 fade-left">
 						<div class="about-logo-panel">
-							<img src="assets/images/nps-logo.png" alt="New Port Street High School Logo" class="about-school-logo">
+							<img src="assets/images/nps-logo.png" alt="Newport Street High School Logo" class="about-school-logo">
 							<p class="school-meta"><strong>Year Established:</strong> April 2, 1982</p>
 							<p class="school-meta"><strong>Type of School:</strong> Faith-based</p>
 						</div>
 					</div>
 
 					<div class="col-lg-8 text-start fade-right about-copy">
-						<h2>New Port Street High School</h2>
+						<h2>Newport Street High School</h2>
 						<p>
-							Located on New Port Street, Monrovia, New Port Street High School, under the World Wide Mission School System,
-							is known for academic excellence and moral leadership in Liberia. Since 1982, New Port Street High School has stayed committed to
+							Located on Newport Street, Monrovia, Newport Street High School, under the World Wide Mission School System,
+							is known for academic excellence and moral leadership in Liberia. Since 1982, Newport Street High School has stayed committed to
 							raising disciplined, God-fearing, and skilled students prepared to serve Liberia and the wider world.
 						</p>
 						<p>
@@ -177,9 +177,9 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="col-lg-7 text-start fade-right">
 							<span class="proprietor-kicker">Principal's Message</span>
 							<h2 class="section-title mb-3">A Welcome From The Principal</h2>
-							<p class="proprietor-text"><strong>Warm greetings from the NPS family on New Port Street.</strong></p>
-							<p class="proprietor-text">At New Port Street High School, we raise students who are spiritually grounded, academically strong, and ready to lead with discipline and purpose.</p>
-							<p class="proprietor-text">Our commitment is clear: <strong>Christ, Character, and Excellence</strong> in every classroom, every activity, and every student journey.</p>
+							<p class="proprietor-text">To the wonderful students, parents of Liberia and the world, especially, Monsterrado County and the general public: greetings in the name of our Lord Jesus Christ!</p>
+							<p class="proprietor-text">At Newport Street School, our mission remains Christ, Character, and Excellence. Today, I am excited to announce a bold step forward in our academic standards: we are introducing Biomedical Technology, Plumbing, Electrical Technology, and Electronics Technology into our curriculum so students leave with both WAEC certificates and practical skills.</p>
+							<p class="proprietor-text">Parents, bring your children to a school where faith meets skill, and discipline meets innovation. To every young person in Liberia and others part of the world: your hands can heal, build, and create. Don't wait for jobs - learn to create them. Enrollment is now open; come, let us train the next generation together.</p>
 							<div class="proprietor-highlights" aria-label="Principal message highlights">
 								<span>Faith-Centered Learning</span>
 								<span>Strong Academic Standards</span>
@@ -187,7 +187,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 							</div>
 							<div class="proprietor-signature mt-2">
 								<h6 class="mb-0">Mr. Reuben Tedoe Faimahn </h6>
-								<small>Principal, New Port Street High School</small>
+								<small>Principal, Newport Street High School</small>
 							</div>
 							<a href="principal.php" class="btn btn-school mt-2">Read More About the Principal</a>
 						</div>
@@ -258,7 +258,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="video-panel">
 									<div class="video-frame shadow-sm">
 								<iframe src="https://www.youtube.com/embed/x3ZCIPg1qP4?si=8_cSC9DqDOZUBm33"
-									title="New Port Street High School"
+									title="Newport Street High School"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 									allowfullscreen></iframe>
 							</div>
@@ -370,7 +370,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 							<div class="download-card fade-left">
 								<div class="download-icon"><i class="bi bi-file-earmark-pdf-fill"></i></div>
 								<h5 class="mb-2">School Brochure</h5>
-								<p class="mb-3">Overview of our programs, facilities, and student life at New Port Street High School.</p>
+								<p class="mb-3">Overview of our programs, facilities, and student life at Newport Street High School.</p>
 								<a href="assets/uploads/wbi-school-brochure.pdf" class="btn btn-school" download>
 									<i class="bi bi-download me-1"></i> Download Brochure
 								</a>
@@ -438,9 +438,9 @@ $yearsInOperation = date('Y') - $foundingYear;
 				<div class="value-cards values-enhanced">
 					<article class="card value-card-item partner-card fade-left text-center">
 						<div class="partner-logo-badge">
-							<img src="assets/images/nps-logo.png" alt="NPS New Port Street branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+							<img src="assets/images/nps-logo.png" alt="NPS Newport Street branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
 						</div>
-						<h3>New Port Street Campus</h3>
+						<h3>Newport Street Campus</h3>
 						<p>Main campus offering strong academic pathways from early learning through senior high school.</p>
 						<a href="contact.php" class="btn btn-outline-secondary btn-sm">Visit Website</a>
 					</article>
@@ -481,7 +481,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 				<div class="section-heading">
 					<span class="section-kicker">Parents Speak</span>
 					<h2>Parent Testimonials</h2>
-						<p>What families are saying about their experience at New Port Street High School.</p>
+						<p>What families are saying about their experience at Newport Street High School.</p>
 				</div>
 
 				<div id="parentTestimonials" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
@@ -495,7 +495,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="carousel-item active">
 							<article class="testimonial-card mx-auto">
 								<img src="assets/images/nps-logo.png" alt="Parent testimonial photo" class="testimonial-photo">
-								<p class="testimonial-quote">"New Port Street High School has transformed my child's confidence, discipline, and academic performance. The teachers genuinely care, and we feel supported as parents every step of the way."</p>
+								<p class="testimonial-quote">"Newport Street High School has transformed my child's confidence, discipline, and academic performance. The teachers genuinely care, and we feel supported as parents every step of the way."</p>
 								<h5 class="mb-0">Mrs. Martha Kollie</h5>
 								<small>Parent - Junior High Student</small>
 							</article>
@@ -503,7 +503,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="carousel-item">
 							<article class="testimonial-card mx-auto">
 								<img src="assets/images/nps-logo.png" alt="Parent testimonial photo" class="testimonial-photo">
-								<p class="testimonial-quote">"The learning environment is safe, faith-based, and focused on excellence. My daughter has improved in both character and classwork since joining New Port Street High School."</p>
+								<p class="testimonial-quote">"The learning environment is safe, faith-based, and focused on excellence. My daughter has improved in both character and classwork since joining Newport Street High School."</p>
 								<h5 class="mb-0">Mr. Emmanuel Doe</h5>
 								<small>Parent - Elementary Student</small>
 							</article>
@@ -511,7 +511,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="carousel-item">
 							<article class="testimonial-card mx-auto">
 								<img src="assets/images/nps-logo.png" alt="Parent testimonial photo" class="testimonial-photo">
-								<p class="testimonial-quote">"From communication to academics, New Port Street High School continues to exceed our expectations. We are proud to be part of a school that builds both mind and heart."</p>
+								<p class="testimonial-quote">"From communication to academics, Newport Street High School continues to exceed our expectations. We are proud to be part of a school that builds both mind and heart."</p>
 								<h5 class="mb-0">Mrs. Sarah Nyemah</h5>
 								<small>Parent - Senior High Student</small>
 							</article>

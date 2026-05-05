@@ -1,3 +1,5 @@
+<?php include_once __DIR__ . '/site_contact.php'; ?>
+
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top wbi-navbar">
   <div class="container-fluid">
     <a class="navbar-brand brand-identity" href="index.php">
@@ -5,7 +7,7 @@
         <img src="assets/images/nps-logo.png" width="50" alt="NPS Logo" class="site-logo">
       </span>
       <span class="brand-copy">
-        <strong class="school-name">New Port Street High School</strong>
+        <strong class="school-name"><?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?></strong>
         <small class="tagline">Christ, Character, and Excellence</small>
       </span>
     </a>
@@ -37,7 +39,7 @@
         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
 
         <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
-          <a href="https://portal.wbi.edu.lr" class="btn btn-warning fw-bold">E-Portal</a>
+          <a href="<?php echo htmlspecialchars(NPS_PORTAL_URL); ?>" class="btn btn-warning fw-bold">E-Portal</a>
         </li>
         
       </ul>

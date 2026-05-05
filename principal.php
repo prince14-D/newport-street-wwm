@@ -6,7 +6,7 @@ $pageTitle = 'Principal';
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $pageTitle; ?> - New Port Street High School</title>
+	<title><?php echo $pageTitle; ?> - Newport Street High School</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/nps-logo.png">
@@ -29,7 +29,7 @@ $pageTitle = 'Principal';
 				<img src="assets/images/banner.png" alt="Principal banner" class="hero-slide-image">
 				<div class="hero-content container">
 					<h1>Principal's Page</h1>
-					<p>Leadership, discipline, and academic excellence at New Port Street High School.</p>
+					<p>Leadership, discipline, and academic excellence at Newport Street High School.</p>
 					<div class="hero-buttons">
 						<a href="admissions.php" class="btn primary">Apply Now</a>
 						<a href="staff.php" class="btn light">Meet Our Staff</a>
@@ -49,15 +49,13 @@ $pageTitle = 'Principal';
 						</div>
 						<div class="col-lg-8 text-start fade-right">
 							<span class="proprietor-kicker">Principal's Message</span>
-							<h2 class="section-title mb-3">Mr. Reuben Tedoe Faimahn</h2>
-							<p class="proprietor-text"><strong>Warm greetings from the family of New Port Street High School, Duport Road.</strong></p>
-							<p class="proprietor-text">At NPS, we believe every child is a gift from God with a purpose to fulfill. Our duty is simple: train them well for life and for eternity. Each day, our teachers step into the classroom not just to teach subjects, but to shape character, instill discipline, and build competence that will serve Liberia and beyond.</p>
-							<p class="proprietor-text">We hold firm to three pillars: <strong>Christ, Character, and Excellence</strong>. Your child will be challenged academically to meet Ministry of Education standards and pass WASSCE with integrity. They will also be mentored to respect authority, serve others, and work with their hands. We maintain zero tolerance for exam malpractice, drug abuse, and indiscipline, because real education cannot grow where values are broken.</p>
-							<p class="proprietor-text">To our parents: thank you for trusting us. You are partners, not spectators. To our students: come ready to learn, obey, and lead. The future of Liberia sits in these desks.</p>
-							<p class="proprietor-text">NPS is more than a school; it is a mission field and a launchpad. Together, let us raise a generation that is skilled, godly, and fearless.</p>
+							<h2 class="section-title mb-3">A Welcome From The Principal</h2>
+							<p class="proprietor-text">To the wonderful students, parents of Liberia and the world, especially, Monsterrado County and the general public: greetings in the name of our Lord Jesus Christ!</p>
+							<p class="proprietor-text">At Newport Street School, our mission remains Christ, Character, and Excellence. Today, I am excited to announce a bold step forward in our academic standards: we are introducing Biomedical Technology, Plumbing, Electrical Technology, and Electronics Technology into our curriculum so students leave with both WAEC certificates and practical skills.</p>
+							<p class="proprietor-text">Parents, bring your children to a school where faith meets skill, and discipline meets innovation. To every young person in Liberia and others part of the world: your hands can heal, build, and create. Don't wait for jobs - learn to create them. Enrollment is now open; come, let us train the next generation together.</p>
 							<div class="proprietor-signature mt-3">
 								<h6 class="mb-0">Mr. Reuben Tedoe Faimahn</h6>
-								<small>Principal, New Port Street High School</small>
+								<small>Principal, Newport Street High School</small>
 							</div>
 						</div>
 					</div>

@@ -1,18 +1,20 @@
+<?php include_once __DIR__ . '/site_contact.php'; ?>
+
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-block footer-about">
       <div class="footer-brand">
-        <img src="assets/images/nps-logo.png" alt="New Port Street High School Logo" class="footer-logo">
+        <img src="assets/images/nps-logo.png" alt="<?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?> Logo" class="footer-logo">
         <div>
-          <h3 class="mb-1">New Port Street High School</h3>
+          <h3 class="mb-1"><?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?></h3>
           <p class="footer-subtitle mb-0">World Wide Mission School System</p>
         </div>
       </div>
       <p class="footer-brief">
-        New Port Street High School is a faith-based school committed to academic excellence,
+        <?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?> is a faith-based school committed to academic excellence,
         character formation, and leadership development. 
       </p>
-      <p class="mb-0"><i class="bi bi-geo-alt-fill me-1" aria-hidden="true"></i> New Port Street, Monrovia, Liberia</p>
+      <p class="mb-0"><i class="bi bi-geo-alt-fill me-1" aria-hidden="true"></i> <?php echo htmlspecialchars(NPS_SCHOOL_ADDRESS); ?></p>
     </div>
 
     <div class="footer-block">
@@ -28,9 +30,9 @@
 
     <div class="footer-block">
       <h3>Connect</h3>
-      <p><a href="https://portal.newportwwmss.com">Student E-Portal</a></p>
-      <p>Email: <a href="mailto:info@newportwwmss.com">info@newportwwmss.com</a></p>
-      <p>Phone: <a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
+      <p><a href="<?php echo htmlspecialchars(NPS_PORTAL_URL); ?>">Student E-Portal</a></p>
+      <p>Email: <a href="mailto:<?php echo htmlspecialchars(NPS_CONTACT_EMAIL); ?>"><?php echo htmlspecialchars(NPS_CONTACT_EMAIL); ?></a></p>
+      <p>Phone: <a href="tel:<?php echo htmlspecialchars(NPS_CONTACT_PHONE_PRIMARY); ?>"><?php echo htmlspecialchars(NPS_CONTACT_PHONE_PRIMARY); ?></a> / <a href="tel:<?php echo htmlspecialchars(NPS_CONTACT_PHONE_SECONDARY); ?>"><?php echo htmlspecialchars(NPS_CONTACT_PHONE_SECONDARY); ?></a></p>
       <p>Office Hours: Mon - Fri, 8:00 AM - 4:00 PM</p>
       <div class="footer-socials" aria-label="Social media links">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
@@ -47,7 +49,7 @@
   </div>
 
   <div class="container copyright-row">
-    <p>&copy; <?php echo date('Y'); ?> New Port Street High School. All rights reserved.</p>
+    <p>&copy; <?php echo date('Y'); ?> <?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?>. All rights reserved.</p>
     <p class="developer-credit">Developed by <a href="https://www.tecliberia.com" target="_blank" rel="noopener noreferrer">Tec Liberia Group</a></p>
   </div>
 </footer>
@@ -55,19 +57,19 @@
 <div class="floating-actions" aria-label="Quick actions">
   <a
     class="floating-action-btn floating-action-whatsapp"
-    href="https://wa.me/231777580532?text=Hello%20WBI%2C%20I%20need%20more%20information%20about%20admission."
+    href="https://wa.me/<?php echo rawurlencode(NPS_CONTACT_WHATSAPP_INTL); ?>?text=Hello%20NPS%2C%20I%20need%20more%20information%20about%20admission."
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Chat with WBI on WhatsApp"
+    aria-label="Chat with NPS on WhatsApp"
     title="Chat on WhatsApp"
   >
     <i class="bi bi-whatsapp" aria-hidden="true"></i>
   </a>
   <a
     class="floating-action-btn floating-action-call"
-    href="tel:0777580532"
-    aria-label="Call WBI"
-    title="Call WBI"
+    href="tel:<?php echo htmlspecialchars(NPS_CONTACT_PHONE_PRIMARY); ?>"
+    aria-label="Call NPS"
+    title="Call NPS"
   >
     <i class="bi bi-telephone-fill" aria-hidden="true"></i>
   </a>

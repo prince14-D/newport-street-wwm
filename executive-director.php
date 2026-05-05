@@ -6,7 +6,7 @@ $pageTitle = 'Education Director';
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $pageTitle; ?> - New Port Street High School</title>
+	<title><?php echo $pageTitle; ?> - Newport Street High School</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/nps-logo.png">
@@ -29,7 +29,7 @@ $pageTitle = 'Education Director';
 				<img src="assets/images/banner.png" alt="Education department banner" class="hero-slide-image">
 				<div class="hero-content container">
 					<h1>Education Director</h1>
-					<p>Guiding teaching and learning with standards, values, and results at New Port Street High School.</p>
+					<p>Guiding teaching and learning with standards, values, and results at Newport Street High School.</p>
 					<div class="hero-buttons">
 						<a href="admissions.php" class="btn primary">Apply Now</a>
 						<a href="about.php" class="btn light">About NPS</a>
@@ -51,14 +51,14 @@ $pageTitle = 'Education Director';
 							<span class="proprietor-kicker">Education Department</span>
 							<h2 class="section-title mb-3">Mr. G. Alphonso Menyon</h2>
 							<p class="proprietor-text"><strong>Greetings to our parents, students, staff, and partners.</strong></p>
-							<p class="proprietor-text">At New Port Street High School System, the Education Department exists for one reason: to ensure quality teaching and learning happen every single day. Our mandate is clear: align every lesson, test, and activity with Ministry of Education standards while holding fast to our Christ-centered mission.</p>
+							<p class="proprietor-text">At Newport Street High School System, the Education Department exists for one reason: to ensure quality teaching and learning happen every single day. Our mandate is clear: align every lesson, test, and activity with Ministry of Education standards while holding fast to our Christ-centered mission.</p>
 							<p class="proprietor-text">This year, our focus is <strong>Standards + Values = Results</strong>. We are strengthening teacher training, monitoring lesson delivery, and upgrading our labs and learning materials so students master English, Mathematics, Science, Social Studies, and practical skills.</p>
 							<p class="proprietor-text">We prepare students not just to pass WASSCE, but to think, solve problems, and lead with integrity.</p>
 							<p class="proprietor-text">To teachers: professionalism is non-negotiable. Follow the Code of Conduct, dress modestly, plan your lessons, and assess fairly. To students: your effort plus our guidance equals success. To parents: join us, check homework, attend PTA, and hold us accountable.</p>
-							<p class="proprietor-text">Together, we will keep NPS a model of discipline and excellence on New Port Street.</p>
+							<p class="proprietor-text">Together, we will keep NPS a model of discipline and excellence on Newport Street.</p>
 							<div class="proprietor-signature mt-3">
-								<h6 class="mb-0">Education Director, New Port Street High School</h6>
-								<small>New Port Street Monrovia, Liberia</small>
+								<h6 class="mb-0">Education Director, Newport Street High School</h6>
+								<small>Newport Street Monrovia, Liberia</small>
 							</div>
 						</div>
 					</div>

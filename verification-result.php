@@ -25,7 +25,7 @@ if ($record) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pageTitle; ?> - New Port Street High School</title>
+    <title><?php echo $pageTitle; ?> - Newport Street High School</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
@@ -174,8 +174,8 @@ if ($record) {
                     <div class="transcript-brand">
                         <img src="assets/images/nps-logo.png" alt="NPS logo">
                         <div>
-                            <h1 class="h5 mb-1">New Port Street High School</h1>
-                            <p class="mb-0 small">New Port Street, Monrovia, Liberia | Official Transcript Verification</p>
+                            <h1 class="h5 mb-1">Newport Street High School</h1>
+                            <p class="mb-0 small">Newport Street, Monrovia, Liberia | Official Transcript Verification</p>
                         </div>
                     </div>
                     <div class="text-end">

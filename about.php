@@ -6,7 +6,7 @@ $pageTitle = 'About';
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $pageTitle; ?> - New Port Street High School</title>
+	<title><?php echo $pageTitle; ?> - Newport Street High School</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/nps-logo.png">
@@ -28,7 +28,7 @@ $pageTitle = 'About';
 			<div class="hero-slide">
 				<img src="assets/images/banner.png" alt="NPS campus banner" class="hero-slide-image">
 				<div class="hero-content container">
-					<h1>About New Port Street High School</h1>
+					<h1>About Newport Street High School</h1>
 					<p>Building disciplined, skilled, and Christ-centered leaders from Duport Road to the world.</p>
 					<div class="hero-buttons">
 						<a href="admissions.php" class="btn primary">Apply Now</a>
@@ -43,15 +43,15 @@ $pageTitle = 'About';
 				<div class="row g-4 align-items-center">
 					<div class="col-lg-5 fade-left">
 						<div class="about-logo-panel">
-							<img src="assets/images/nps-logo.png" alt="New Port Street High School Logo" class="about-school-logo">
+							<img src="assets/images/nps-logo.png" alt="Newport Street High School Logo" class="about-school-logo">
 							<p class="school-meta"><strong>Established:</strong> April 2, 1982</p>
 							<p class="school-meta"><strong>Type:</strong> Faith-based School</p>
 						</div>
 					</div>
 					<div class="col-lg-7 text-start fade-right">
-						<span class="section-kicker">About New Port Street High School</span>
-						<h1 class="section-title">New Port Street High School, Duport Road</h1>
-						<p>Founded to serve families along Duport Road, New Port Street High School has grown into a trusted K-12 Christian institution where discipline, scholarship, and faith work together. We prepare learners for BECE and WASSCE, while building character for college, career, and service. Our mission is to provide quality, Christ-centered education that develops students intellectually, morally, and spiritually for Liberia and the world. Our vision is to raise skilled, ethical, and visionary leaders. Core values guide daily life: Christ, Character, Excellence, Discipline, and Service. New Port Street High School is recognized by Liberia's Ministry of Education, follows national curriculum standards, and supports students in academic competitions including spelling, quizzing, and debate.</p>
+						<span class="section-kicker">About Newport Street High School</span>
+						<h1 class="section-title">Newport Street High School, Duport Road</h1>
+						<p>Founded to serve families along Duport Road, Newport Street High School has grown into a trusted K-12 Christian institution where discipline, scholarship, and faith work together. We prepare learners for BECE and WASSCE, while building character for college, career, and service. Our mission is to provide quality, Christ-centered education that develops students intellectually, morally, and spiritually for Liberia and the world. Our vision is to raise skilled, ethical, and visionary leaders. Core values guide daily life: Christ, Character, Excellence, Discipline, and Service. Newport Street High School is recognized by Liberia's Ministry of Education, follows national curriculum standards, and supports students in academic competitions including spelling, quizzing, and debate.</p>
 					</div>
 				</div>
 			</div>

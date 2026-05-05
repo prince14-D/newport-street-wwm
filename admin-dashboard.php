@@ -187,7 +187,7 @@ $declinedAdmissions = count(array_filter($allAdmissions, function ($item) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard - New Port Street High School</title>
+  <title>Admin Dashboard - Newport Street High School</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>

@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pageTitle; ?> - New Port Street High School</title>
+    <title><?php echo $pageTitle; ?> - Newport Street High School</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/nps-logo.png">
@@ -122,7 +122,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="hero-slide">
                 <img src="assets/images/banner.png" alt="NPS admissions banner" class="hero-slide-image">
                 <div class="hero-content container">
-                    <h1>Admissions at New Port Street High School</h1>
+                    <h1>Admissions at Newport Street High School</h1>
                     <p>Register new or returning students online and track your admission result quickly.</p>
                     <div class="hero-buttons">
                         <a href="#admission-form" class="btn primary">Start Registration</a>

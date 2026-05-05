@@ -6,7 +6,7 @@ $pageTitle = 'Academics';
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $pageTitle; ?> - New Port Street High School</title>
+	<title><?php echo $pageTitle; ?> - Newport Street High School</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/nps-logo.png">
@@ -28,7 +28,7 @@ $pageTitle = 'Academics';
 			<div class="hero-slide">
 				<img src="assets/images/banner.png" alt="NPS academics banner" class="hero-slide-image">
 				<div class="hero-content container">
-					<h1>Academics at New Port Street High School</h1>
+					<h1>Academics at Newport Street High School</h1>
 					<p>Structured programs, clear standards, and Christ-centered learning from kindergarten to senior high.</p>
 					<div class="hero-buttons">
 						<a href="admissions.php" class="btn primary">Apply Now</a>
@@ -105,7 +105,7 @@ $pageTitle = 'Academics';
 							<div class="download-card fade-left">
 								<div class="download-icon"><i class="bi bi-file-earmark-pdf-fill"></i></div>
 								<h5 class="mb-2">School Brochure</h5>
-								<p class="mb-3">Overview of our programs, facilities, and student life at New Port Street High School.</p>
+								<p class="mb-3">Overview of our programs, facilities, and student life at Newport Street High School.</p>
 								<a href="assets/uploads/nps-school-brochure.pdf" class="btn btn-school" download>
 									<i class="bi bi-download me-1"></i> Download Brochure
 								</a>

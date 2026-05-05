@@ -59,7 +59,7 @@ $otherJobs = array_slice($jobs, 1);
         <div class="section-heading">
           <span class="section-kicker">Join Our Team</span>
           <h1>Current Job Vacancies</h1>
-          <p>Explore available roles at New Port Street High School and become part of our student-centered academic community.</p>
+          <p>Explore available roles at Newport Street High School and become part of our student-centered academic community.</p>
         </div>
 
         <?php if ($featuredJob): ?>

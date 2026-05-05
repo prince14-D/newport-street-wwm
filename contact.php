@@ -1,7 +1,9 @@
 <?php
+include_once __DIR__ . '/includes/site_contact.php';
+
 $pageTitle = 'Contact';
 $notice = '';
-$recipientEmail = 'info@wbi.edu.lr';
+$recipientEmail = NPS_CONTACT_EMAIL;
 $formData = [
 	'name' => '',
 	'email' => '',
@@ -20,10 +22,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	if ($formData['name'] === '' || $formData['email'] === '' || $formData['message'] === '') {
 		$notice = 'Please complete your name, email, and message before sending.';
 	} else {
-		$emailSubject = trim($formData['subject']) !== '' ? $formData['subject'] : 'New Contact Message from WBI Website';
-		$emailSubject = '[WBI Contact] ' . $emailSubject;
+		$emailSubject = trim($formData['subject']) !== '' ? $formData['subject'] : 'New Contact Message from ' . NPS_SCHOOL_NAME . ' Website';
+		$emailSubject = '[NPS Contact] ' . $emailSubject;
 		$emailBody = implode("\n", [
-			'New contact form submission from New Port Street High School website',
+			'New contact form submission from Newport Street High School website',
 			'',
 			'Name: ' . $formData['name'],
 			'Email: ' . $formData['email'],
@@ -37,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		$headers = [];
 		$headers[] = 'MIME-Version: 1.0';
 		$headers[] = 'Content-Type: text/plain; charset=UTF-8';
-		$headers[] = 'From: WBI Website <' . $recipientEmail . '>';
+		$headers[] = 'From: NPS Website <' . $recipientEmail . '>';
 		$headers[] = 'Reply-To: ' . $formData['name'] . ' <' . $formData['email'] . '>';
 		$headers[] = 'X-Mailer: PHP/' . phpversion();
 
@@ -49,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		);
 
 		if ($sent) {
-			$notice = 'Thank you for contacting New Port Street High School. Your message has been sent successfully.';
+			$notice = 'Thank you for contacting Newport Street High School. Your message has been sent successfully.';
 			$formData = [
 				'name' => '',
 				'email' => '',
@@ -68,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $pageTitle; ?> - New Port Street High School</title>
+	<title><?php echo $pageTitle; ?> - <?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?></title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/nps-logo.png">
@@ -88,9 +90,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	<main class="w-100 m-0">
 		<section class="hero p-0 m-0" data-animate>
 			<div class="hero-slide">
-				<img src="assets/images/banner.png" alt="Contact New Port Street High School banner" class="hero-slide-image">
+				<img src="assets/images/banner.png" alt="Contact <?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?> banner" class="hero-slide-image">
 				<div class="hero-content container">
-					<h1>Contact New Port Street High School</h1>
+					<h1>Contact <?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?></h1>
 					<p>Reach our team for admissions, school records, general support, and partnership inquiries.</p>
 					<div class="hero-buttons">
 						<a href="#contact-form" class="btn primary">Send a Message</a>
@@ -104,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			<div class="container">
 				<h2 class="text-white">Contact Overview</h2>
 				<div class="row g-3 mt-3 justify-content-center">
-					<div class="col-md-4"><div class="stat-card"><h3>New Port Street</h3><p>Monrovia, Liberia</p></div></div>
+					<div class="col-md-4"><div class="stat-card"><h3>Newport Street</h3><p>Monrovia, Liberia</p></div></div>
 					<div class="col-md-4"><div class="stat-card"><h3>8 AM - 4 PM</h3><p>Monday - Friday Office Hours</p></div></div>
 					<div class="col-md-4"><div class="stat-card"><h3>24/7</h3><p>Website Contact Access</p></div></div>
 				</div>
@@ -114,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		<section class="py-5" data-animate>
 			<div class="container">
 				<div class="section-heading">
-					<span class="section-kicker">Contact New Port Street High School</span>
+					<span class="section-kicker">Contact <?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?></span>
 					<h1>Get in Touch</h1>
 					<p>Our admissions and support team is ready to assist you with enrollment, records, and school information.</p>
 				</div>
@@ -155,7 +157,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 								</div>
 								<div class="col-12 d-grid d-sm-flex gap-2">
 									<button type="submit" class="btn btn-school">Send Message</button>
-									<a href="tel:0777580532" class="btn btn-outline-secondary">Call Us</a>
+									<a href="tel:<?php echo htmlspecialchars(NPS_CONTACT_PHONE_PRIMARY); ?>" class="btn btn-outline-secondary">Call Us</a>
 								</div>
 							</form>
 						</div>
@@ -166,7 +168,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 							<div class="admin-panel-header">
 								<div>
 									<h2 class="admin-panel-title">Find Our Location</h2>
-									<p class="admin-panel-subtitle">Google Map showing New Port Street High School on New Port Street, Monrovia City.</p>
+									<p class="admin-panel-subtitle">Google Map showing <?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?> on Newport Street, Monrovia City.</p>
 								</div>
 							</div>
 							<div class="ratio ratio-16x9 rounded-4 overflow-hidden border">
@@ -176,13 +178,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 									allowfullscreen=""
 									loading="lazy"
 									referrerpolicy="no-referrer-when-downgrade"
-									title="New Port Street High School Location"
+									title="<?php echo htmlspecialchars(NPS_SCHOOL_NAME); ?> Location"
 								></iframe>
 							</div>
 							<div class="mt-3">
-								<p class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i>New Port Street, Monrovia City, Liberia</p>
-								<p class="mb-2"><i class="bi bi-telephone-fill me-2"></i><a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
-								<p class="mb-0"><i class="bi bi-envelope-fill me-2"></i><a href="mailto:info@newportwwmss.com">info@newportwwmss.com</a></p>
+								<p class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i><?php echo htmlspecialchars(NPS_SCHOOL_ADDRESS); ?></p>
+								<p class="mb-2"><i class="bi bi-telephone-fill me-2"></i><a href="tel:<?php echo htmlspecialchars(NPS_CONTACT_PHONE_PRIMARY); ?>"><?php echo htmlspecialchars(NPS_CONTACT_PHONE_PRIMARY); ?></a> / <a href="tel:<?php echo htmlspecialchars(NPS_CONTACT_PHONE_SECONDARY); ?>"><?php echo htmlspecialchars(NPS_CONTACT_PHONE_SECONDARY); ?></a></p>
+								<p class="mb-0"><i class="bi bi-envelope-fill me-2"></i><a href="mailto:<?php echo htmlspecialchars(NPS_CONTACT_EMAIL); ?>"><?php echo htmlspecialchars(NPS_CONTACT_EMAIL); ?></a></p>
 							</div>
 						</div>
 					</div>
@@ -192,19 +194,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 					<div class="col-md-3 col-6">
 						<article class="card value-card-item text-start h-100">
 							<h3><i class="bi bi-geo-alt-fill me-2"></i>Address</h3>
-							<p class="mb-0">New Port Street, Monrovia City, Liberia</p>
+							<p class="mb-0"><?php echo htmlspecialchars(NPS_SCHOOL_ADDRESS); ?></p>
 						</article>
 					</div>
 					<div class="col-md-3 col-6">
 						<article class="card value-card-item text-start h-100">
 							<h3><i class="bi bi-telephone-fill me-2"></i>Phone</h3>
-							<p class="mb-0"><a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
+							<p class="mb-0"><a href="tel:<?php echo htmlspecialchars(NPS_CONTACT_PHONE_PRIMARY); ?>"><?php echo htmlspecialchars(NPS_CONTACT_PHONE_PRIMARY); ?></a> / <a href="tel:<?php echo htmlspecialchars(NPS_CONTACT_PHONE_SECONDARY); ?>"><?php echo htmlspecialchars(NPS_CONTACT_PHONE_SECONDARY); ?></a></p>
 						</article>
 					</div>
 					<div class="col-md-3 col-6">
 						<article class="card value-card-item text-start h-100">
 							<h3><i class="bi bi-envelope-fill me-2"></i>Email</h3>
-							<p class="mb-0"><a href="mailto:info@newportwwmss.com">info@newportwwmss.com</a></p>
+							<p class="mb-0"><a href="mailto:<?php echo htmlspecialchars(NPS_CONTACT_EMAIL); ?>"><?php echo htmlspecialchars(NPS_CONTACT_EMAIL); ?></a></p>
 						</article>
 					</div>
 					<div class="col-md-3 col-6">
